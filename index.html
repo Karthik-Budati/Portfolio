@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My portfolio
+        </title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/580267b034.js" crossorigin="anonymous"></script>   
+     </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="https://drive.google.com/file/d/1vrg3nYG5FicA1YNIiPV1YSnTol7RbrXi/view?usp=sharing">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-light fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-light fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi,I'm <span>Karthik</span>  Budati<br></h1>        
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------about ------------->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/mine.png">
+                    </div>
+                    <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1><br>
+                      <p style="font-weight: 300;">
+                        I am a Computer Science and Engineering (CSE) student with a strong passion for programming and web development, 
+                        I am deeply interested in learning new technologies and constantly improving my skills,
+                        My ability to quickly grasp new concepts helps me stay ahead in the rapidly evolving tech field,
+                        Time management is one of my key strengths, allowing me to balance academic responsibilities and personal projects effectively,
+                        I also excel in collaborating with teams, contributing ideas and solutions while working efficiently with others to achieve common goals,
+                        My enthusiasm for web development drives me to create innovative, user-friendly applications.
+                      </p>
+
+                      <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Programming Abilities<br>
+                                <span>C  C++ Java Python</span><br></li>
+                            <li>Web Development<br>
+                                <span>HTML CSS PHP Js</span><br>
+                            </li>
+                            <li>DataBase Management<br>
+                                <span>MongoDb MySql</span>
+                            </li>
+                            <li>Version Control<br>
+                                <span>Git</span>
+                            </li>
+                        </ul>
+
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>CodeSoft Virtual internship (Jun-2024 - Aug-2024)<br>
+                                <span>Web Development</span>
+                            </li>
+                            <li>Web Samrat Technologies,Guntur (Jun-2022 - Jan-2023)<br>
+                                <span>Worked on full stack web developer through PHP</span>
+                            </li>
+                        </ul>
+
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Gradution<br>
+                                <span>Computer Science and Engineering , R.V.R & J.C College Of Engineering</span><br>
+                                <span>CGPA : 8.5(upto 5th semester)</span>
+                            </li>
+                            <li>Diploma<br>
+                                <span>Computer Engineering , A.A.N.M & V.V.R.S.R POLYTECHNIC</span><br>
+                                <span>Percentage : 93</span>
+                            </li>
+                            <li>Secondary Education<br>
+                                <span>Z.P High School, Madala</span><br>
+                                <span>Percentage : 94</span>
+                            </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+         <!-- portfolio-->
+          <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/portfolio.png">
+                        <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Personal project<br><br>HTML CSS JS</p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>   
+                    <div class="work">
+                        <img src="images/greet.png">
+                        <div class="layer">
+                        <h3>Greeting Card</h3>
+                        <p>Birthday Wishes Site<br><br>HTML CSS JS</p>
+                        <a href="https://akon261204.github.io/ammadi/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>   
+                </div>
+                <a href="https://github.com/Karthik-Budati" class="btn">See more</a>
+            </div>
+
+         </div>
+          <!-- portfolio-->
+          <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/nptel.png">
+                        <div class="layer">
+                        <h3>Programming Domain</h3>
+                        <!--<p>Personal project<br><br>HTML CSS JS</p>-->
+                        <a href="https://drive.google.com/drive/folders/1j97jR2FXGE2dVtysZx-oizpFqpVEeG5p?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>   
+                    <div class="work">
+                        <img src="images/linkedin.jpg">
+                        <div class="layer">
+                        <h3>Gen AI</h3>
+                       <!--<p>Birthday Wishes Site<br><br>HTML CSS JS</p>-->
+                        <a href="https://drive.google.com/file/d/18eoiqBv9eAkOWG8xqCuoAWG11ys4P2Oe/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>   
+                </div>
+                
+            </div>
+
+          </div>
+          <!-- contact-->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>  &nbsp; &nbsp;karthikbudati.666@gmail.com</p>
+                        <p> <i class="fa-solid fa-phone"></i>  &nbsp; &nbsp;+91 9951928565</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> &nbsp; &nbsp; Andhra Pradesh ,&nbsp; India</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/karthik__budati/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/karthik-budati-573248291"><i class="fab fa-linkedin"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <textarea  name="message" rows="6" placeholder="Your Message"></textarea><br>
+                        <button type="submit" class="btn btn2" style="margin-right: 60%;">Submit</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div id="copyright">
+           <hr> 
+                <p class="left">&copy; 2024 Karthik Budati.<br>
+                All Rights Are Reserved.
+                </p>
+                <p class="right">Terms of Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact</p>
+            </div>
+           </div>
+
+         <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+                 for(tablink of tablinks){
+                    tablink.classList.remove("active");
+                 }
+                 for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                 }
+                 event.currentTarget.classList.add("active");
+                 document.getElementById(tabname).classList.add("active-tab");
+                
+            }
+
+         </script>
+         <script>
+            var idmenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+         </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxSvbOP3Agh-VzM-ACMUWzRIXSKikB6KnAcIXZPwaXytKqVZorvNZciPVIytX1DMPaAtA/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
